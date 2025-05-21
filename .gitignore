@@ -1,0 +1,14 @@
+# Python
+__pycache__/
+*.pyc
+
+# Env
+venv/
+
+# Qt Designer
+*.py~ 
+*.bak
+*.tmp
+
+# Dados locais
+src/data/
