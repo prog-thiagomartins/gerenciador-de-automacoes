@@ -1,6 +1,11 @@
 import sys
+import os
 from PyQt6.QtWidgets import  QApplication
 from pages.main_window import MainWindow
+
+# Define o diretório raiz do projeto como o CWD
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+os.chdir(BASE_DIR)
 
 if __name__ == '__main__':
     app = QApplication(sys.argv)
